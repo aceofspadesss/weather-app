@@ -1,0 +1,27 @@
+.content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.app-container {
+    margin-top: 5rem;
+}
+
+#date, #wind, #pres, #hum, #cloud {
+    font-size: 13px;
+}
+
+#today, #in1day, #in2days, #in3days, #in4days {
+    background-color: #524e73; 
+    color: #fff;
+}
+
+#desc-now, .desc-1, .desc-2, .desc-3, .desc-4{
+    text-transform: capitalize;
+}
+
+#in1day, #in2days, #in3days, #in4days, #today{
+    background-color: rgba(82, 78, 115, 0.9);
+}
