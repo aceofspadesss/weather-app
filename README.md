@@ -9,11 +9,11 @@ You might also notice i18n library, which I will use for adding localization to 
 
 All the components and can be found in "./src/components". Each of the component has its' own role:
 
-App - Main component that handles layout and API requests.
-Forecast - Responsible for providing forecast data based on the longitude and latitude data provided Open Weather.
-Navbar - Handles theme debug menu.
-SearchBar - Provides user input value for API requests.
-WeatherToday - Displays current weather data.
+App - Main component that handles layout and API requests. <br/>
+Forecast - Responsible for providing forecast data based on the longitude and latitude data provided Open Weather. <br/>
+Navbar - Handles theme debug menu. <br/>
+SearchBar - Provides user input value for API requests. <br/>
+WeatherToday - Displays current weather data. <br/>
 
 ## Cards
 
