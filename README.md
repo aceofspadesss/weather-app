@@ -7,7 +7,7 @@ You might also notice i18n library, which I will use for adding localization to 
 
 ## Components
 
-All the components and can be found in "./src/components". Each of the component has its' own role:
+All the components can be found in "./src/components". Each of the component has its' own role:
 
 App - Main component that handles layout and API requests. <br/>
 Forecast - Responsible for providing forecast data based on the longitude and latitude data provided Open Weather. <br/>
