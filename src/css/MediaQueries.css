@@ -1,0 +1,239 @@
+@media screen and (max-width: 3840) {
+    .content-wrapper {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 464.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 463.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 344.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 344.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 255.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 264.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 254.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 191.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 190.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 172px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 164.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 144.5px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #in1day, #in2days, #in3days, #in4days{
+        background-color: rgba(82, 78, 115, 0.9);
+        min-width: auto;
+        padding: 0 90px;
+    }
+
+    #in4days {
+        margin-bottom: 50px;
+    }
+    .card-back {
+        height: 14.2rem;
+    }
+    .card-back-text {
+        margin-top: 1rem;
+    }
+}

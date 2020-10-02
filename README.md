@@ -1,8 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+
+This project is a simple weather app application that allows you to check weather forecast and current weather in any place of the world.
+The project relies on Open Weather API which keeps weather records, while callback is managed by Axios. 
+For layout I used Bootstrap 4 as well as my own media queries and CSS styling.
+You might also notice i18n library, which I will use for adding localization to the project in the upcoming update.
+
+## Components
+
+All the components and can be found in "./src/components". Each of the component has its' own role:
+
+App - Main component that handles layout and API requests.
+Forecast - Responsible for providing forecast data based on the longitude and latitude data provided Open Weather.
+Navbar - Handles theme debug menu.
+SearchBar - Provides user input value for API requests.
+WeatherToday - Displays current weather data.
+
+## Cards
+
+All of the forecast cards can be flipped on click for additional information such as humidity, wind speed, pressure and cloudness.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Downloads all the necessary dependencies to run this project.
 
 ### `yarn start`
 

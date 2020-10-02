@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const WeatherToday = (props) => {
     let week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -11,11 +11,11 @@ const WeatherToday = (props) => {
     return(
         <div className="row">
             <div className="col">
-                <div id="today" className="card d-flex align-items-center mt-3">
+                <div id="today" className="card d-flex align-items-center mt-3" style={{background: `linear-gradient(0deg, ${props.gradientBackground.color1}, ${props.gradientBackground.color2}, ${props.gradientBackground.color3}`}}>
                     <h3 id="name">{props.data.name}</h3>
                     <h2 id="temp-now">{`${Math.round(props.temp.temp)}°`}</h2>
                     <h2 id="status-now">
-                        <img src={`https://openweathermap.org/img/wn/${props.icon.icon}@2x.png`} />
+                        <img src={`https://openweathermap.org/img/wn/${props.icon.icon}@2x.png`} alt="weather icon" />
                     </h2>
                     <h4 id="desc-now">{props.icon.description}</h4>
                     <p id="date">{`${today} ${currHour}:${currMin}`}</p>

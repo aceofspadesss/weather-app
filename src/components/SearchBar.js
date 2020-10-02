@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
-import App from './App';
 
 const SearchBar = (props) => {
 
     const [city, setCity] = useState('');
-    
-    function callCity() {
-        props.setCityName(city);
-    }
 
     return(
         <div className="input-group">

@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = (props) => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Weather App</a>
+            <a class="navbar-brand" href="https://localhost:3000">
+                <img src="https://www.feirox.com/rivu/2016/04/Klara-1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" style={{marginLeft: '5px', marginRight: '5px'}} />
+                Weather App
+            </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -15,16 +18,42 @@ const Navbar = () => {
                         Debug Menu
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="#">Clear Sky Demo</a>
-                            <a className="dropdown-item" href="#">Few Clouds Demo</a>
-                            <a className="dropdown-item" href="#">Clear Sky Demo</a>
-                            <a className="dropdown-item" href="#">Scattered Clouds Demo</a>
-                            <a className="dropdown-item" href="#">Broken Clouds Demo</a>
-                            <a className="dropdown-item" href="#">Shower Rain Demo</a>
-                            <a className="dropdown-item" href="#">Rain Demo</a>
-                            <a className="dropdown-item" href="#">Thunderstorm Demo</a>
-                            <a className="dropdown-item" href="#">Snow Demo</a>
-                            <a className="dropdown-item" href="#">Mist Demo</a>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/clear-sky.jpg'); 
+                                                                props.setGradient({ color1: 'rgba(86,77,241,0.9)', color2: 'rgba(80,80,246,0.8)', color3: 'rgba(219,249,255,0.7)' 
+                                                                })} }>Clear Sky Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/few-clouds.jpg');
+                                                                props.setGradient({ color1: 'rgba(53,98,166,0.9)', color2: 'rgba(68,157,241,0.8)', color3: 'rgba(172,223,233,0.7)' });
+                                                                }}>Few Clouds Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/scattered-clouds.jpg');
+                                                                props.setGradient({ color1: 'rgba(136,136,136,0.9)', color2: 'rgba(113,145,175,0.8)', color3: 'rgba(230,230,230,0.7)' });
+                                                                }}>Scattered Clouds Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/broken-clouds.jpg');
+                                                                props.setGradient({ color1: 'rgba(204,204,204,0.9)', color2: 'rgba(90,134,176,0.8)', color3: 'rgba(29,56,73,0.7)' });
+                                                                }}>Broken Clouds Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/shower-rain.jpg');
+                                                                props.setGradient({ color1: 'rgba(149,177,255,0.9)', color2: 'rgba(40,70,98,0.8)', color3: 'rgba(0,0,0,0.7)' });
+                                                                }}>Shower Rain Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/rain.jpg');
+                                                                props.setGradient({ color1: 'rgba(41,93,21,0.9)', color2: 'rgba(110,150,119,0.8)', color3: 'rgba(231,255,180,0.7)' });
+                                                                }}>Rain Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/thunderstorm.jpg');
+                                                                props.setGradient({ color1: 'rgba(0,5,45,0.9)', color2: 'rgba(23,21,77,0.8)', color3: 'rgba(145,143,213,0.7)' });
+                                                                }}>Thunderstorm Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/snow.jpg');
+                                                                props.setGradient({ color1: 'rgba(162,170,195,0.9)', color2: 'rgba(233,233,233,0.8)', color3: 'rgba(238,238,238,0.7)' });
+                                                                }}>Snow Demo</button>
+                            <button className="dropdown-item" onClick={() => {
+                                                                props.setBackground('../images/mist.jpg');
+                                                                props.setGradient({ color1: 'rgba(228,234,240,0.9)', color2: 'rgba(255,255,255,0.8)', color3: 'rgba(164,164,164,0.7)' });
+                                                                }}>Mist Demo</button>
                         </div>
                     </li>
                 </ul>

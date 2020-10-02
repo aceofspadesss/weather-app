@@ -1,8 +1,9 @@
 .content-wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    overflow: auto;
 }
 
 .app-container {
@@ -14,14 +15,33 @@
 }
 
 #today, #in1day, #in2days, #in3days, #in4days {
-    background-color: #524e73; 
+    border: none;
     color: #fff;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.3)); 
 }
 
 #desc-now, .desc-1, .desc-2, .desc-3, .desc-4{
     text-transform: capitalize;
 }
 
+.desc-1, .desc-2, .desc-3, .desc-4 {
+    width: 300px;
+    text-align: center;
+}
+
 #in1day, #in2days, #in3days, #in4days, #today{
     background-color: rgba(82, 78, 115, 0.9);
+}
+
+#in1day, #in2days, #in3days, #in4days {
+    width: 16.219rem;
+}
+
+.card-back {
+    padding: 41px 0;
+}
+
+.info {
+    width: 300px;
+    margin-left: 7rem;
 }
