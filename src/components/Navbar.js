@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = (props) => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="https://localhost:3000">
+            <a class="navbar-brand" href="http://aceofspadesss.github.io/weather-app">
                 <img src="https://www.feirox.com/rivu/2016/04/Klara-1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" style={{marginLeft: '5px', marginRight: '5px'}} />
                 Weather App
             </a>
